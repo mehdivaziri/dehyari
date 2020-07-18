@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mehdi.dehyarinew3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Dostan"></activity>
+        <activity android:name=".Play_sond1" />
+        <activity android:name=".Play_sond" />
+        <activity
+            android:name=".Entekhabat.Entekhabat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sitha_karbordi.SIte_show"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tarikh_beyad.Tarikh_beyad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tarha_daramadza.Tahr_daramad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Taghsimat_keshvari.Taghsim_keshvari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sitha_karbordi.Site_karbordi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aeename_mali.Aeenmali_sarfasl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aeename_mali.Aeenmali_fasl2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aeename_mali.Aeenmali_fasl1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Asasname_tashkilat.Asasname_tashkilat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sherkat_asasnametavoni.Shivename_tavoni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Omrani.Omrani_hamlvnaghl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Omrani.Omrani_Aramestan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Omrani.Omrani_Atashneshani"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Omrani.Omrani_shive_pasmand"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Omrani.Omor_fani_omrani"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Omrani.Omor_shakhtrosta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Omrani.Omor_tafkik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Download_pic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".search.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.TabrikActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Nemone_tabrik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sherkat_tavon.Sad_mabar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sherkat_tavon.Polis_sakhteman"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sherkat_tavon.Sherkat_tavoni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gardeshgari.Simakoli_ostan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gardeshgari.Mashhad_gardesh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gardeshgari.Matanegh_gardesh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gardeshgari.Gardeshgari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Darbarema"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Ebarat_standard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.Bashgah_news" />
+        <activity
+            android:name=".activity.Ghanon_shorabakhsh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.Download_file"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_shorarosta.Rosta_ghanonasasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_shorarosta.Rosta_bayanat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Ghanono_shrosta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Ezharname"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Sodor_mojavez"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Pardakh_hoghogh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Eteraz_ekhtar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Darkhast_tashilat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.ac_nemonename.Dakhst_vam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DownloadApkActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_nemone_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.DownloadActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ac_edari.Aeennegaresh_edari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SampelEdariActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Zir_menu.Act_sitpor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_taghsidatkeshvar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_form_sakhteman"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_form_dehyari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_bakhshnamebodje"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_aeenname_mali"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_asasname_tashkilat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_sherkat_tavoni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_ghanon_mali"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.Act_ghanon_omrani"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zir_menu.GhanonEdari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GhanonHdActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

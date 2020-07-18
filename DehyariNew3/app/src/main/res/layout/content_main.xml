@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/mSlider"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:background="@color/color_back_main"
+        >
+        <LinearLayout style="@style/style_lyt">
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#AFBECC"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_start"
+                android:id="@+id/bashgahnews">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="باشگاه خبري"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_akhbar"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#DFDAB9"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_end"
+                android:id="@+id/cardGhanonHd">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=" قوانین حوزه دهیاریها"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:layout_weight="2"/>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ghavanin2"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout style="@style/style_lyt">
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#DDE0C6"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_start"
+                android:id="@+id/ghanonshora">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="قوانین شوراهای اسلامی روستا"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"/>
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image3"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_parcham"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#C7BFAE"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_end"
+                android:id="@+id/ghanonbakhsh">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="قوانین شوراهای اسلامی بخش"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"/>
+
+
+
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image4"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shoraeslami"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout style="@style/style_lyt">
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#F1CEDA"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_start"
+                android:id="@+id/gardeshgary">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="گردشگری"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"/>
+
+
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image5"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/toos1"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#C8E2E6"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_end"
+                android:id="@+id/sherkat1">>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="شرکت های تعاونی دهیاری ها"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"/>
+
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image6"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/gharb1"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout style="@style/style_lyt">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardConnectUs"
+                app:cardBackgroundColor="#E4C8E9"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_start">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ارتباط باما"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"/>
+
+
+
+
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image7"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ertebet" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardGhabz"
+                app:cardBackgroundColor="#F7CCBF"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="8dp"
+                style="@style/style_card_end">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="پرداخت قبوض"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"/>
+
+
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image8"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ghabz"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
